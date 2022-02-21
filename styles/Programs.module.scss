@@ -1,0 +1,84 @@
+.bannerContainer {
+  position: relative;
+  z-index: 4;
+  margin-bottom: 2rem;
+
+  img {
+    height: 38rem;
+    object-fit: cover;
+  }
+}
+
+.pageTitle {
+  position: absolute;
+  background-color: #fff;
+  padding: 2rem 2rem;
+  width: 20rem;
+  z-index: 5;
+  top: 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.internshipInfo,
+.acceleratorInfo {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2.5em;
+
+  li:not(:first-of-type) {
+    margin-top: 1.2rem;
+  }
+}
+
+.hero {
+  background-color: #0c183c;
+  color: #ffffff;
+  padding: 104px 64px;
+  margin: 1.5em 0;
+
+  h1 {
+    margin-bottom: 1rem;
+  }
+}
+
+.sectionTitle {
+  text-align: right;
+  font-style: italic;
+}
+
+.styledText {
+  font-style: italic;
+  padding: 0.5rem 0;
+}
+
+.cards {
+  h4 {
+    font-style: italic;
+    padding: 1.2rem 0;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .programsContainer {
+    padding: 0 2em;
+  }
+
+  .bannerContainer {
+    img {
+      height: 200px;
+    }
+  }
+
+  .hero {
+    padding: 34px 20px;
+  }
+
+  .pageTitle {
+    height: 4rem;
+    width: 10rem;
+    left: 12px;
+  }
+}

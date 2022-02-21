@@ -1,0 +1,45 @@
+  .navApplyBtn {
+    border-radius: 25px;
+    border: 1px solid black;
+    padding: 0.7em 3em;
+    margin: 1em 1em 1em 0;
+    font-family: "Lato Bold";
+    font-size: 12px;
+    letter-spacing: 0.1em;
+    color: black;
+    text-transform: uppercase;
+
+    @media screen and (max-width: 415px){
+      display: 0;
+    }
+  }
+
+  .applyBtn {
+    border-radius: 25px;
+    border: 1px solid white;
+    padding: 0.7em 3em;
+    margin:0 1em 1em 0;
+    font-family: "Lato Bold";
+    font-size: 12px;
+    letter-spacing: 0.1em;
+    color: white;
+    text-transform: uppercase;
+  }
+  
+  .moreInfoBtn {
+    border-radius: 25px;
+    border: 1px solid black;
+    padding: 0.7em 3em;
+    margin: 1em 1em 1em 0;
+    font-family: "Lato Bold";
+    font-size: 12px;
+    letter-spacing: 0.1em;
+    color: black;
+    text-transform: uppercase;
+  }
+
+  @media only screen and (max-width: 768px) {
+    .navApplyBtn {
+      display: none;
+    }
+  }

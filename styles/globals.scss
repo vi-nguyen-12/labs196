@@ -1,0 +1,71 @@
+@font-face {
+  font-family: "New-York Italic";
+  src: url("../public/fonts/New-York\ Italic.ttf");
+}
+
+@font-face {
+  font-family: "New-York Regular";
+  src: url("../public/fonts/New\ York\ Regular.ttf");
+}
+
+@font-face {
+  font-family: "Lato Regular";
+  src: url("../public/fonts/Lato-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Lato Bold";
+  src: url("../public//fonts/Lato-Bold.ttf");
+}
+
+$blue-gradient: linear-gradient(180deg, #152B9B 0, #269AB7 100%);
+$orange-gradient: linear-gradient(180deg, #F05139 0, #F08639 100%);
+$primary-color: #fceee4;
+$secondary-color: #F05139;
+
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: 'New-York Regular';
+}
+
+h1{
+  font-family: "New-York Regular";
+}
+
+h2{
+  font-family: "New-York Regular";
+  font-style: italic;
+}
+
+p {
+  font-family: "Lato Regular";
+  line-height: 38px;
+  font-size: 1em;
+}
+
+ul, li{
+  font-family: "Lato Regular";
+}
+
+hr {
+  border: 0;
+  clear:both;
+  display:block;
+  width: 100%;               
+  background-color:black;
+  height: 1px;
+}
